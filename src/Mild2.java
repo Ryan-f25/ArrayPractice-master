@@ -20,6 +20,16 @@ public class Mild2 {
             a[i] = (int)(Math.random()*100);
         }
 
+        int mean = 0;
+
+        for(int i=0; i<a.length; i++) {
+            mean = mean + a[i]/20;
+
+        }
+
+
+
+
         /***
          * Your code goes here
          */

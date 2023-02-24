@@ -24,6 +24,9 @@ public class Mild1b {
         }
 
         int sum = 0;
+        for(int i=0; i<a.length; i++) {
+            sum = sum +a[i];
+        }
 
         /***
          * Your code goes here
